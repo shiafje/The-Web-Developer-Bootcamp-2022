@@ -1,35 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
-    <body>
-        <h1>Forms Demo</h1>
-        
-        <button type="button">OUTISIDE FORM</button>
 
-        <form action="/tacos">
-            <button>PLEASE DO NOT SUBMIT THE FORM</button>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Forms Demo</h1>
+
+    <button type="button">OUTISIDE FORM</button>
+
+    <form action="/tacos">
+        <button>PLEASE DO NOT SUBMIT THE FORM</button>
         <p>
             <label for="username">Ender a Username:</label>
-            <input type="username="username" name="username">
+            <input type="username=" username" name="username">
         </p>
         <p>
-           
+
             <label for="password">Enter a Password</label>
-            <input type="password" placeholder="password" id=""password name="num">
+            <input type="password" placeholder="password" id="" password name="num">
         </p>
-         
+
         <button>IT THE MIDDLE</button>
-        
+
         <p>
-            <label for=""number">Enter a Color: </label>
+            <label for="" number">Enter a Color: </label>
             <input type="color" id="color">
         </p>
- <!--Alternative way to label an input (less common)-->
+        <!--Alternative way to label an input (less common)-->
         <p>
             <label for "number">Ener a Number</label>
             <input type="number" placeholder="enter a number" id="number">
@@ -47,7 +49,37 @@
     <form action="http://www.reddit.com/search">
         <input type="text" name="query">
         <button>Search Reddit</button>
+
     </form>
-    </body>
+    <h2>More Inputs!</h2>
+    <form action="/birds"> 
+        <input type="checkbox" name="agree_tos id=" agree">
+        <label for=" agree">I agree to everything</label>
+        <p>
+            <label for="xs"></label>
+            <input type="radio" name="size" id="xs" value="xs">
+            <label for="s"></label>
+            <input type="radio" name="size" id="s" value="s">
+            <label for="m"></label>
+            <input type="radio" name="size" id="m" value="m">
+        </p>
+        <p>
+            <label for="meal">Please Select an Entree </label>
+            <select name="meal" id="meal">
+                <option value="fish>Fish</option>
+                <option value="fish>Fish</option>
+                <option value="fish>Fish</option>
+            </select>
+        </p>
+        <p>
+            <label for="cheese">Amount of Cheese</label>
+            <input type="range" id=""cheese min="1" max="10" name="cheese_level">
+        </p>
+        
+        <button>Submit</button>
+    </form>
+
+</body>
+
 
 </html>
