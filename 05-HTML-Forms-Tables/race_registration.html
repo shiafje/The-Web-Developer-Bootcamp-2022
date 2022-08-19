@@ -4,49 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Register Form</title>
 </head>
+<form action="">
 <body>
     <div>
         <h1>Race Registration!</h1>
     </div>
     <div>
         <label for="first name">First Name</label>
-        <input type="first name" name="first name" id="first name">
-        <label for="first name">Last Name</label>
-        <input type="last name" name="last name" id="last name">
+        <input type="text" id="first" name="firstname" required>
+        <!-- <input type="first name" name="first name" id="first name"> -->
+        <label for="last name">Last Name</label >
+        <input type="text" id="first" name="lastname" required>
+        <!-- <input type="last name" name="last name" id="last name"> -->
     </div>
-    <div>
+    <!-- <div> -->
+        <p>
         Select a Race:
+        </p>
+    <!-- </div> -->
+    <div>
+        <!-- <input type="radio" name="Fun Run 5K" id="Fun Run 5K"> -->
+        <input type="radio" name="race" id="funrun" value="funrn">
+        <label for="funrun">Fun Run 5K</label>
     </div>
     <div>
-        <input type="radio" name="Fun Run 5K" id="Fun Run 5K">
-        <label for="Fun Run 5K">Fun Run 5K</label>
+        <!-- <input type="radio" name="Half Marathon" id="Half Marathon"> -->
+        <input type="radio" name="race" id="half" value="half">
+        <label for="half">Half Marathon</label>
     </div>
     <div>
-        <input type="radio" name="Half Marathon" id="Half Marathon">
-        <label for="Half Marathon">Half Marathon</label>
+        <!-- <input type="radio" name="Full Marathon" id="Full Marathon"> -->\
+        <input type="radio" name="race" id="full" value="full">
+        <label for="full">Full Marathon</label>
     </div>
     <div>
-        <input type="radio" name="Full Marathon" id="Full Marathon">
-        <label for="Full Marathon">Full Marathon</label>
-    </div>
-    <div>
+        <input type="email" name="email" id="email" required>
         <label for="email">Email</label>
-            <input type="email" name="email" id="email" required>
+        <input type="password" name="password" id="password" required>
         <label for="password">Password</label>
-        <input type="password" name="password" id="password">
-    </div>
+        </div>
     <div>
         <label for="group">Select Age Group</label>
-        <select name="group" id="group">
-        <option value="19">19</option>
-        <option value="20">20</option>
-        <option value="21">21</option>
+        <select name="division" id="division">
+        <option value="student">19</option>
+        <option value="student">20</option>
+        <option value="student">21</option>
     </select>
     </div>
     <div>
         <button>Register</button>
     </div>
+</form>
 </body>
 </html>
+<!--Form 설정을 안했었음-->
