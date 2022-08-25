@@ -3,6 +3,8 @@ h1 {
     font-weight: normal;
     text-decoration: underline;
     letter-spacing: 15px;
+    font-size: 100px;
+    font-family: Arial, Segoe UI, Futura;
    }
 a {
     text-decoration: none;
