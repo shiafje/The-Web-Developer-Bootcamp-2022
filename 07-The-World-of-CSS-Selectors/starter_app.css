@@ -1,0 +1,22 @@
+/* * {
+    color: pink;
+    background-color: blanchedalmond;
+} */
+body {
+    background-color: #eae7dc;
+}
+button {
+    color: #8e8d8a;
+    font-size: 30px;
+}
+h1, h2 {
+	color: black;
+    } 
+#signup{
+    background-color:#8e8d8a;
+    color: #d8c3a5;
+    height: 200px;
+}
+span {
+    color:#e85a4f;
+}
