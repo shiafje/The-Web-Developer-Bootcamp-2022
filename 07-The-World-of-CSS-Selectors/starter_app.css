@@ -15,8 +15,13 @@ h1, h2 {
 #signup{
     background-color:#8e8d8a;
     color: #d8c3a5;
-    height: 200px;
+    height: 40px;
 }
 span {
     color:#e85a4f;
+}
+.tag {
+    background-color: #e85a4f;
+    color: #eae7dc;
+    font-size: 16px;
 }
