@@ -9,7 +9,7 @@ button {
     color: #8e8d8a;
     font-size: 30px;
 }
-h1, h2 {
+h1, h2 { 
 	color: black;
     } 
 #signup{
@@ -24,4 +24,43 @@ span {
     background-color: #e85a4f;
     color: #eae7dc;
     font-size: 16px;
+}
+input [type="password"] {
+    color: #e85a4f;
+}
+.post a {
+    color: #e85a4f;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+footer a{
+    color: #e85a4f;
+}
+
+h2 + button {
+    font-size: 20px;
+}
+
+footer > a{
+    color: #d8c3a5;
+}
+a [href*="google"]{
+    color: black;
+}
+
+.post button:hover {
+   color: white; 
+   background-color: #8e8d8a;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.post button:active {
+    background-color: #540b0e;
+}
+
+.post:nth-of-type(3) {
+    background-color: #540b0e;
 }
