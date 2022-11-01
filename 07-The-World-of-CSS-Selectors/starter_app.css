@@ -72,3 +72,11 @@ h2::first-letter {
 p::first-line {
     color: #e85a4f;
 }
+
+p::selection {
+    background-color: #ffc34a;
+}
+
+h1, h2 {
+    color: #ffc34a;
+}
