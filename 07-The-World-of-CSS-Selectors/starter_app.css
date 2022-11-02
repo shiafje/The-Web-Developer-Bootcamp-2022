@@ -87,3 +87,7 @@ button:hover {
     background-color: #ffc34a;
     font-size: 60px;
 }
+
+button {
+    background-color: orangered !important;
+}
