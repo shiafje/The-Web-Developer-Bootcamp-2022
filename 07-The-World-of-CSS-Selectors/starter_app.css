@@ -49,10 +49,7 @@ a [href*="google"]{
     color: black;
 }
 
-.post button:hover {
-   color: white; 
-   background-color: #8e8d8a;
-}
+
 a:hover {
     text-decoration: underline;
 }
@@ -79,4 +76,14 @@ p::selection {
 
 h1, h2 {
     color: #ffc34a;
+}
+
+.post button:hover {
+    color: white; 
+    background-color: #cc5612;
+ }
+
+button:hover {
+    background-color: #ffc34a;
+    font-size: 60px;
 }
