@@ -1,0 +1,15 @@
+body {
+    color:#CD5C5C;
+}
+
+section {
+    color:#7B68EE;
+}
+
+form {
+    color:#228B22;
+}
+
+butto, input {
+    color: inherit;
+}
