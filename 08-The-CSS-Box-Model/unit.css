@@ -1,0 +1,41 @@
+section {
+    background-color: #e09f3e;
+    width: 800px;
+    height: 800px;
+}
+
+div{
+    background-color: #e07a5f;
+    width: 50%;
+    height: 50%;
+}
+
+h1 {
+    font-size: 40px; 
+    border: 1px solid black;
+    line-height: 200%;
+}
+
+h2 {
+    font-size: 2em;
+    margin-left: 1em;
+}
+
+p{
+    font-size: 1em;
+}
+
+h3 {
+    font-size: 1em;
+}
+article {
+    font-size: 15px;
+}
+
+button {
+    font-size: 1em;
+    padding: 0 1em;
+    border-radius: 0.5em;
+    background-color: #e09f3e;
+    color: white;
+}
