@@ -43,3 +43,23 @@ button {
 ul {
     font-size: 1.5em;
 }
+
+#rems h2 {
+    font-size: 3rem;
+}
+
+#rems h3 {
+    font-size: 2rem;
+}
+
+#rems ul {
+    font-size: 0.8rem;
+}
+
+#rems button { 
+    font-size: 1rem;
+}
+
+html {
+    font-size: 10px
+}
