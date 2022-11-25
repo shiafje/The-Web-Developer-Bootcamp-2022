@@ -1,11 +1,6 @@
 body {
     font-family: 'Merriweather', serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Pacifico', cursive;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto Mono', monospace;
-    font-family: 'Rubik Glitch', cursive;
+    
 }
 
 h1 {
@@ -15,7 +10,14 @@ h1 {
 #container  {
     background-color: #6c757d;
     width: 90%;
-    height: 500px;
+    height: 1200px;
     margin: 0 auto;
     border: 5px solid #6c757d;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#container div {
+    width: 200px;
+    height: 200px;
 }
