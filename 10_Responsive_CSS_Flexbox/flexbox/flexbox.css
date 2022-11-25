@@ -1,0 +1,21 @@
+body {
+    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Rubik Glitch', cursive;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container  {
+    background-color: #6c757d;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #6c757d;
+}
