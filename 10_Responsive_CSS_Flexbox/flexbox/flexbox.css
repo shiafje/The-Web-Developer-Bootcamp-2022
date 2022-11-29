@@ -15,10 +15,14 @@ h1 {
     border: 5px solid #6c757d;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: baseline;
+    
 }
 
 #container div {
     width: 200px;
     height: 200px;
+    text-align: center;
+    font-size: 7em;
 }
