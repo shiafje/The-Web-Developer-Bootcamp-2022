@@ -1,4 +1,4 @@
 # The-Web-Developer-Bootcamp-2022
-Html
+HTML
 CSS
-JS
+
